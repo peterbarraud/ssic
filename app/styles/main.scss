@@ -1,6 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+
 // endbower
 
 .browsehappy {
@@ -151,6 +152,11 @@ body {
 	}
 	.page-title {
 		font-size:24px;
+		color:$app-color;
+		font-weight:bold;
+	}
+	.page-subtitle {
+		font-size:20px;
 		color:$app-color;
 		font-weight:bold;
 	}
